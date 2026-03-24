@@ -265,18 +265,15 @@ Cada gráfica muestra las 3 componentes (Z, N, E) con el CMG en azul y el Silex 
 ## Ejemplo de salida
 
 ### Señal completa
-
-<!-- Insertar captura de ejemplo de señal completa aquí -->
+<img width="504" height="714" alt="Captura de pantalla 2026-03-24 a las 22 53 18" src="https://github.com/user-attachments/assets/9ca82135-a5ed-4730-929b-0c794e147f4e" />
 ![Señal Completa](capturas/ejemplo_senal_completa.png)
 
 ### Primeros 1.5 segundos
-
-<!-- Insertar captura de ejemplo de 1.5 segundos aquí -->
+<img width="502" height="705" alt="Captura de pantalla 2026-03-24 a las 22 53 58" src="https://github.com/user-attachments/assets/693f7328-9aa9-4d28-865e-4c22a8683d93" />
 ![Primeros 1.5s](capturas/ejemplo_1_5s.png)
 
 ### Primeros 5 segundos
-
-<!-- Insertar captura de ejemplo de 5 segundos aquí -->
+<img width="493" height="709" alt="Captura de pantalla 2026-03-24 a las 22 54 21" src="https://github.com/user-attachments/assets/a51ebd0b-9c1e-4b63-b1b3-bb3aff1dbfae" />
 ![Primeros 5s](capturas/ejemplo_5s.png)
 
 ---
