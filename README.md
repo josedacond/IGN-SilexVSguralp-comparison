@@ -31,7 +31,12 @@ python3 --version
 
 ### Dependencias
 
-Instalar las siguientes bibliotecas mediante pip:
+Asegurarse de que pip está instalado:
+```bash
+sudo apt install python3-pip
+```
+
+Instalar las siguientes bibliotecas:
 
 ```bash
 pip install obspy numpy scipy matplotlib reportlab
@@ -97,6 +102,13 @@ ruta/relativa/al/Silex4.mseed; HH:MM:SS; S
 |---|---|
 | `RUTA_BASE` | Ruta absoluta a la carpeta raíz del ensayo. Todas las rutas de archivos son relativas a esta. |
 | `DURACION` | Duración en segundos del evento sísmico (no se usa actualmente en el corte, pero se mantiene como referencia). |
+
+**¿Cómo obtener la RUTA_BASE?** Abrir un terminal y navegar hasta la carpeta del ensayo (donde se encuentran las carpetas `Cmg5T/` y `Silex/`):
+```bash
+cd /ruta/hacia/la/carpeta/del/ensayo
+ls    # Verificar que se ven las carpetas Cmg5T/ y Silex/
+pwd   # Copiar la ruta que imprime, esa es la RUTA_BASE
+```
 
 ### Estructura de tandas
 
