@@ -295,6 +295,9 @@ Si se desea ajustar el comportamiento del programa sin modificar la lógica inte
 ## Autor
 
 **José David Conde Quispe**
+
 Prácticas externas — Grado en Ingeniería Electrónica de Comunicaciones (GIEC)
+
 Universidad Complutense de Madrid (UCM)
+
 Instituto Geográfico Nacional (IGN) — 2026
