@@ -116,6 +116,7 @@ Los datos se organizan en **tandas**. Cada tanda tiene:
 - **Una línea de CMG** (sensor patrón): `ruta_relativa; hora_referencia`
 - **Varias líneas de Silex** (sensores a comparar): `ruta_relativa; hora_referencia; orientación`
 
+La hora de referencia es una hora aproximada del inicio del evento a analizar, la cuál se deberá sacar a ojo con otros métodos de visualización de las señales (la hora no tiene porque ser tan exacta, puede variar unos segundos).
 Las tandas se separan entre sí por **una o más líneas vacías**.
 
 ### Campos de cada línea
