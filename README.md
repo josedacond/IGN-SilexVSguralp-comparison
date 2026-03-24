@@ -116,7 +116,6 @@ Los datos se organizan en **tandas**. Cada tanda tiene:
 - **Una línea de CMG** (sensor patrón): `ruta_relativa; hora_referencia`
 - **Varias líneas de Silex** (sensores a comparar): `ruta_relativa; hora_referencia; orientación`
 
-La hora de referencia es una hora aproximada del inicio del evento a analizar, la cuál se deberá sacar a ojo con otros métodos de visualización de las señales (la hora no tiene porque ser tan exacta, puede variar unos segundos).
 Las tandas se separan entre sí por **una o más líneas vacías**.
 
 ### Campos de cada línea
@@ -158,7 +157,7 @@ Silex/Silex LA251 - LA252 - LA253 - LA254 - LA255 - LA256 - LA257/ES.SX251.mseed
 
 ### Notas importantes sobre el config.txt
 
-- La **hora de referencia** no necesita ser exacta. Es una hora aproximada cercana al inicio del evento. El programa detecta automáticamente el inicio real.
+- La **hora de referencia** es una hora aproximada del inicio del evento a analizar, la cuál se deberá sacar a ojo con otros métodos de visualización de las señales (la hora no tiene porque ser tan exacta, puede variar unos segundos). El programa detecta automáticamente el inicio real.
 - La **orientación** (`N` o `S`) determina qué corrección de polaridad se aplica al Silex. Es fundamental que sea correcta para que la comparación sea válida.
 - Si un archivo no se encuentra en la ruta indicada, el programa lo salta y continúa con el siguiente, mostrando un mensaje de error en la consola.
 - Los nombres de carpetas con espacios y caracteres especiales funcionan correctamente siempre que se escriban exactamente igual que en el sistema de archivos.
