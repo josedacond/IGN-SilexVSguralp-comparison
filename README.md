@@ -64,7 +64,7 @@ IGN-SilexVSguralp-comparison/
 ├── script_informe.py       # Script principal (genera el informe PDF)
 ├── config.txt              # Archivo de configuración (rutas, horas, orientaciones)
 ├── README.md               # Este documento
-└── PNGs/                   # Carpeta donde se guardan las gráficas generadas (se crea automáticamente)
+└── PNGs/                   # Se crea automáticamente dentro de RUTA_BASE al ejecutar el script
 ```
 
 ---
@@ -181,7 +181,7 @@ python3 script_informe.py
 ### Salida
 
 - **PDF**: Se genera en la carpeta definida en `RUTA_BASE` con el nombre `Informe_Ensayo_XXXXXXXX.pdf`.
-- **PNGs**: Se guardan en la carpeta definida en la variable `tmp_dir` del script (por defecto `PNGs/`). Se sobreescriben cada vez que se ejecuta el script.
+- **PNGs**: Se guardan automáticamente en una carpeta `PNGs/` dentro de la `RUTA_BASE` del ensayo. Se sobreescriben cada vez que se ejecuta el script.
 
 ### Progreso en consola
 
@@ -289,7 +289,6 @@ Si se desea ajustar el comportamiento del programa sin modificar la lógica inte
 |---|---|---|---|
 | `RUTA_CONFIG` | Línea ~23 | Ruta al archivo de configuración | (debe configurarse) |
 | `VISTAS` | Línea ~25 | Ventanas temporales a generar (nombre, segundos antes, segundos después) | Completa, 1.5s, 5s |
-| `tmp_dir` | Sección ejecución | Carpeta donde se guardan los PNGs | `PNGs/` |
 
 ---
 
